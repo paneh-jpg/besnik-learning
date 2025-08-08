@@ -40,7 +40,7 @@ a {
 }
 
 .space-height {
-  scroll-margin-top: 80px;
+  scroll-margin-top: 100px;
 }
 
 /* ========== Header ========== */
@@ -706,4 +706,111 @@ a {
 .feedback-title,
 .main-avatar {
   transition: all 0.9s ease;
+}
+
+/* ========== Call To Action ========== */
+.cta-section {
+  margin-top: 130px;
+  height: 272px;
+  background-color: #def6f5;
+}
+
+.cta-container {
+  padding: 76px 289px 87px 135px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text h2 {
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cta-text p {
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cta-btn a {
+  display: inline-block;
+  min-width: 186px;
+  height: 68px;
+  border-radius: 14px;
+  background-color: #2ac9bf;
+  color: #fff;
+
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: normal;
+  align-content: center;
+}
+
+.cta-btn a:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* ========== Footer ========== */
+.footer {
+  margin-top: 130px;
+}
+
+.footer .row {
+  display: flex;
+  gap: 143px;
+}
+
+.footer .column h3 {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.footer .column ul a {
+  display: inline-block;
+  color: #535353;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-bottom: 22px;
+}
+
+.footer .column ul a:hover {
+  color: #2f3a3b;
+  text-shadow: 1px 0 0 currentColor;
+}
+
+.footer .column .social-icon {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  /* align-content: center; */
+  border-radius: 50%;
+  /* padding: 2px 5px; */
+}
+
+.footer .column .social-icon:hover img {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.footer .column:last-child ul li {
+  display: flex;
+  gap: 9px;
+}
+
+.footer .copy-right {
+  margin-top: 80px;
+  padding-bottom: 50px;
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
 }
